@@ -4,7 +4,7 @@
 
 #  Lancer powershell en tant que administrateur:
 
-# Lancer powershell en tant que administrateur et telecharger le script d'installation:
+# Executer la commande pour telecharger le script d'installation dans powershell:
 Invoke-WebRequest -outfile "install-opentofu.ps1" -uri "https://get.opentofu.org/install-opentofu.ps1"
 
 
